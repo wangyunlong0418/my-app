@@ -1,7 +1,7 @@
 const Koa = require('koa');
 const app = new Koa();
-const router = require('koa-router')();
-const views = require('koa-views');
+const router = require('koa-router')();   // 路由
+const views = require('koa-views');       // 静态资源文件
 const co = require('co');
 const convert = require('koa-convert');
 const json = require('koa-json');
